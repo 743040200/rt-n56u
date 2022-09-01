@@ -1,7 +1,7 @@
 /* PSG712 */
 
-#define BOARD_PID		"PSG712"
-#define BOARD_NAME		"PSG712"
+#define BOARD_PID		"RK-AC"
+#define BOARD_NAME		"RK-AC"
 #define BOARD_DESC		"RK RK-AC Wireless Router"
 #define BOARD_VENDOR_NAME	"PHICOMM"
 #define BOARD_VENDOR_URL	"http://www.phicomm.com/"
