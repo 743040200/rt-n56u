@@ -4,5 +4,5 @@
 # RK-AC   # PHICOMM RK-AC  # MT7620  #
 ##################################################################
 
-CFLAGS += -DBOARD_PSG712
-BOARD_NUM_USB_PORTS=0
+CFLAGS += -DBOARD_RuiKe-AC
+BOARD_NUM_USB_PORTS=1
