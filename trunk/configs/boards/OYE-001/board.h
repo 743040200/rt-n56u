@@ -2,7 +2,7 @@
 
 #define BOARD_PID		"OYE-001"
 #define BOARD_NAME		"OYE-001"
-#define BOARD_DESC		"OYE-001 Wireless Router"
+#define BOARD_DESC		"OYE-AC Wireless Router"
 #define BOARD_VENDOR_NAME	"OYE"
 #define BOARD_VENDOR_URL	"http://www.oyewifi.com"
 #define BOARD_MODEL_URL		"http://www.oyewifi.com"
