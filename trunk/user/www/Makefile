@@ -229,6 +229,7 @@ endif
 ifeq ($(CONFIG_FIRMWARE_INCLUDE_FRPC)_$(CONFIG_FIRMWARE_INCLUDE_FRPS), n_n)
 	rm -f $(INSTALLDIR)/www/Advanced_frp.asp
 endif
-
+ifneq ($(CONFIG_FIRMWARE_INCLUDE_DDNSTO),y)
+	rm -f $(INSTALLDIR)/www/Advanced_ddnsto.aspendif
 clean:
 	@echo "Clean www romfs"
