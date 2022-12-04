@@ -588,6 +588,8 @@ if (found_app_aliddns()){
 	menuL2_link.push(aliddns_array[1]);
 } else if (found_app_zerotier()){
 	menuL2_link.push(zerotier_array[1]);
+} else if (found_app_ddnsto()){
+	menuL2_link.push(ddnsto_array[1]);
 } else menuL2_link.push("");
 if (found_app_frp()){
 	menuL2_link.push(frp_array[1]);
