@@ -536,6 +536,10 @@ if (found_app_smartdns()){
 	menuL2_title.push("<#menu5_29#>");
 } else menuL2_title.push("");
 
+if (found_app_aliddns()||found_app_zerotier()||found_app_ddnsto()||found_app_wireguard()){
+	menuL2_title.push("<#menu5_30#>");
+} else menuL2_title.push("");
+
 if (found_app_aliddns()){
 	menuL2_title.push("<#menu5_30#>");
 } else if (found_app_zerotier()){
